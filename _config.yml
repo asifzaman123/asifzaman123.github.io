@@ -4,5 +4,5 @@ plugins:
 
 title: My Blog
 navbar-links:
-  Home: ""
+  Home: "/asifzaman123.github.io"
 rss: false
