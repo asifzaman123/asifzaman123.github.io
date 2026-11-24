@@ -62,10 +62,20 @@ h1, h2, h3, h4, .navbar-brand {
   color: var(--accent) !important;
 }
 
-/* 4. Hero Header Cleanup */
+/* 4. Hero Header & Top Spacing Fix */
 .intro-header {
-  margin-top: 3.5rem;
+  margin-top: 6rem;
   margin-bottom: 2.5rem;
+}
+
+.intro-header.no-img {
+  margin-top: 6.5rem;
+}
+
+/* Adds breathing room if your homepage has no header at all */
+body > .container-md:first-of-type,
+main.container-md {
+  padding-top: 2rem;
 }
 
 .intro-header .page-heading h1,
@@ -82,6 +92,7 @@ h1, h2, h3, h4, .navbar-brand {
   color: var(--text-muted);
   margin-top: 0.75rem;
 }
+
 
 /* 5. Modern Card Style for Post Feed */
 .post-preview {
