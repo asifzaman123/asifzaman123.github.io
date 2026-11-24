@@ -47,8 +47,14 @@ h1, h2, h3, h4, .navbar-brand {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-subtle) !important;
-  padding: 0.85rem 0;
+  padding: 0.85rem 2rem !important;
   transition: all 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom {
+    padding: 0.75rem 1.25rem !important;
+  }
 }
 
 .navbar-custom .navbar-brand,
