@@ -6,3 +6,5 @@ title: My Blog
 navbar-links:
   Home: "/asifzaman123.github.io"
 rss: false
+site-css:
+  - "/assets/css/custom.css"
