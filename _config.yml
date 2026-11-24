@@ -8,3 +8,11 @@ navbar-links:
 rss: false
 site-css:
   - "/assets/css/custom.css"
+navbar-col: "#fafaf9"
+navbar-text-col: "#18181b"
+navbar-border-col: "#e4e4e7"
+page-col: "#fafaf9"
+text-col: "#18181b"
+link-col: "#2563eb"
+hover-col: "#1d4ed8"
+footer-col: "#fafaf9"
